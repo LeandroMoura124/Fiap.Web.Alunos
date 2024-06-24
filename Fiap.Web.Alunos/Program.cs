@@ -1,4 +1,4 @@
-using Fiap.Web.Alunos2.Data;
+using Fiap.Web.Alunos.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
