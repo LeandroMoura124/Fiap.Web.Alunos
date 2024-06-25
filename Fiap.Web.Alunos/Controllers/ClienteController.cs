@@ -61,7 +61,6 @@ namespace Fiap.Web.Alunos.Controllers
         [HttpPost]
         public IActionResult Create(ClienteModel clienteModel)
         {
-
             _databaseContext.Clientes.Add(clienteModel);
             _databaseContext.SaveChanges();
 
